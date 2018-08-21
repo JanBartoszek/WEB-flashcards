@@ -1,0 +1,32 @@
+body {
+    background-color: darkblue;
+    color: rebeccapurple;
+    text-align: -webkit-center;
+    margin: 50px;
+}
+
+img {
+    display: block;
+}
+
+.button {
+    padding: 40px 40px;
+    margin: 10px;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 40px red;
+}
+
+#create-question-container {
+    margin-top: 100px;
+}
+
+#create-question-container * {
+    display: block;
+    margin: 10px;
+}
+
+#question {
+    width: 415px;
+}
