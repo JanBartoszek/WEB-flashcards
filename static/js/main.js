@@ -54,6 +54,6 @@ let mainEvents = {
 
     loadAnswerQuestion : function() {
         mainDOM.removeMainDOMContent()
-
+        answerQuestionDOM.createElements()
     }
 }

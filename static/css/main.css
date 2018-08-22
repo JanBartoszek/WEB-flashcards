@@ -1,6 +1,6 @@
 body {
-    background-color: darkblue;
-    color: rebeccapurple;
+    background-color: yellowgreen;
+    color: black;
     text-align: -webkit-center;
     margin: 50px;
 }
@@ -22,7 +22,7 @@ img {
     margin-top: 100px;
 }
 
-#create-question-container * {
+#create-question-container *, #answer-question-container *{
     display: block;
     margin: 10px;
 }
@@ -30,3 +30,13 @@ img {
 #question {
     width: 415px;
 }
+
+#answer-div, #question-div{
+    width: 400px;
+}
+
+#answer-div{
+    background-color: black;
+
+}
+

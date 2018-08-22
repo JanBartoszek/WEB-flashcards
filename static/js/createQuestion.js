@@ -57,8 +57,8 @@ let createQuestionEvents = {
     let question = document.getElementById("create-question-question").value;
     let answer = document.getElementById("create-question-answer").value;
     let createQuestionInput = { question : question, answer : answer };
-    console.log(createQuestionInput)
-    return createQuestionInput;
+    localStorage.setItem('new-question', JSON.stringify(createQuestionInput));
+    ajax.sendQuestion()
     },
 
     loadMain : function() {
